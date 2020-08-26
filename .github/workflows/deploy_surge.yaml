@@ -23,7 +23,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Setup Node
-      uses: actions/Setup-Node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
     - name: Setup Surge
